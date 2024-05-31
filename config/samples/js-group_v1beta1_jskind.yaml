@@ -1,0 +1,12 @@
+apiVersion: js-group.js.domain/v1beta1
+kind: JsKind
+metadata:
+  labels:
+    app.kubernetes.io/name: jskind
+    app.kubernetes.io/instance: jskind-sample
+    app.kubernetes.io/part-of: js-project
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: js-project
+  name: jskind-sample
+spec:
+  # TODO(user): Add fields here
