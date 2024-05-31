@@ -10,3 +10,4 @@
 5. ...
 6. make generate
 7. make manifests
+8. make docker file ```docker build manager-operator . ```
