@@ -7,4 +7,6 @@
 3. create api
 ```operator-sdk create api --group js-group --version v1 --kind JsKind --version v1beta1 ```
 4. add spec
-5. 
+5. ...
+6. make generate
+7. make manifests
