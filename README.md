@@ -12,4 +12,5 @@
 7. make manifests
 8. make docker file ```docker build manager-operator . ```
 9. docker tag ```docker tag manager-operator:latest jongsoo/manager-operator:latest ```
-10. 
+10. docker push ```docker push jongsoo/manager-operator:latest ```
+11. 
