@@ -29,7 +29,10 @@ type JsKindSpec struct {
 	// Important: Run "make" to regenerate code after modifying this file
 
 	// Foo is an example field of JsKind. Edit jskind_types.go to remove/update
-	Foo string `json:"foo,omitempty"`
+	//Foo string `json:"foo,omitempty"`
+	Size  int32  `json:"size"`
+	Image string `json:"image"`
+	Port  int32  `json:"port"`
 }
 
 // JsKindStatus defines the observed state of JsKind

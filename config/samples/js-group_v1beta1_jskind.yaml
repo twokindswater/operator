@@ -10,3 +10,6 @@ metadata:
   name: jskind-sample
 spec:
   # TODO(user): Add fields here
+  image: "jongsoo/manager:latest"
+  size: 1
+  port: 80
